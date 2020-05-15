@@ -1,0 +1,1 @@
+Each move we can choose the minimum element in a, the maximum element in b and swap them (if the minimum in a is less than maximum in b). If we repeat this operation k times, we get the answer. This can be done in O(n3), O(n2) but authors solution is O(nlogn).

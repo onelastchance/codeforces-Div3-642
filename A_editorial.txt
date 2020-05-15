@@ -1,0 +1,1 @@
+If n=1 then the answer is 0. Otherwise, the best way is to construct the array [0,m,0,…,0]. For n=2 we can't reach answer more than m and for n>2 we can't reach the answer more than 2m because each unit can't be used more than twice. So the answer can be represented as min(2,n−1)⋅m.

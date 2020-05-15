@@ -1,0 +1,3 @@
+the minimum element of the set will be the segment that we need to choose. Initially, the set will contain only one segment [0;n−1]. Suppose we choose the segment [l;r] during the i-th action. Let id=⌊l+r2⌋, where ⌊xy⌋ is x divided by y rounded down. Assign (set) a[id]:=i, then if the segment [l;id−1] has positive (greater than zero) length, push this segment to the set and the same with the segment [id+1;r]. After n such actions we get the answer.
+
+Time complexity: O(nlogn).
